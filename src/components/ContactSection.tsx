@@ -38,7 +38,7 @@ const ContactSection = () => {
                 <span className="font-semibold">(46) 93300-1503</span>
               </p>
               <p className="text-primary-foreground/80">
-                Luiza Picolotto<br />
+                Luiza Picoloto<br />
                 <span className="font-semibold">(55) 99202-0992</span>
               </p>
             </div>
