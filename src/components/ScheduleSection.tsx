@@ -1,4 +1,5 @@
-import { Clock, Presentation, Coffee } from "lucide-react";
+import { Clock, Presentation, Coffee, AudioLines } from "lucide-react";
+import { title } from "process";
 
 const ScheduleSection = () => {
   const scheduleItems = [
@@ -10,21 +11,21 @@ const ScheduleSection = () => {
     },
     {
       time: "19:40",
-      title: "Palestra 1: Qualidade do leite",
+      title: `Palestra 1: Qualidade do leite: "Da ordenha ao tanque: os pilares da qualidade do leite e redução da ccs"`,
       icon: Presentation,
       color: "bg-accent/30 text-primary",
     },
     {
       time: "20:30",
-      title: "Palestra 2: Manejo de bezerras",
+      title: `Palestra 2: Manejo de bezerras: "Primeiros passos da bezerra leiteira: cuidados essenciais para um futuro produtivo"`,
       icon: Presentation,
       color: "bg-accent/30 text-primary",
     },
     {
-      time: "21:20",
-      title: "Finalização do evento",
-      icon: Clock,
-      color: "bg-primary/10 text-primary",
+      time: "21:10",
+      title: "Momento de Conversa",
+      icon: AudioLines,
+      color: "bg-secondary/50 text-primary",
     },
     {
       time: "21:30",
@@ -32,6 +33,12 @@ const ScheduleSection = () => {
       icon: Coffee,
       color: "bg-secondary/50 text-primary",
     },
+    {
+      title:  "Finalização do Evento",
+      time: "22:00",
+      icon: Clock,
+      color: "bg-primary/10 text-primary",
+    }
   ];
 
   return (

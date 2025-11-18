@@ -2,13 +2,13 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
 
 const RegistrationSection = () => {
-  const registrationLink = "https://forms.gle/YOUR_GOOGLE_FORM_LINK"; // Substitua pelo link real
+  const registrationLink = "https://forms.gle/LBU1WJDRasRy3nZj8";
 
   return (
     <section id="inscricao" className="py-20 px-4 bg-gradient-to-b from-muted/30 to-background">
       <div className="container mx-auto max-w-2xl text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
-          Inscreva-se Gratuitamente!
+          Inscreva-se agora!
         </h2>
         <p className="text-xl text-muted-foreground mb-12">
           As vagas são limitadas. Não perca a chance de aprimorar seus conhecimentos.

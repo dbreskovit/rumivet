@@ -14,12 +14,11 @@ const CertificateSection = () => {
             
             <div className="text-center md:text-left">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">
-                Certificado de Participação
+                Evento com Certificado
               </h2>
               <p className="text-lg text-foreground leading-relaxed">
-                Todos os participantes receberão um certificado de conclusão ao final do evento. 
-                É uma ótima oportunidade para enriquecer seu currículo e comprovar sua atualização 
-                profissional!
+                    Garanta seu certificado de participação ao final do evento por apenas R$15,00.
+                    Uma excelente oportunidade para enriquecer seu currículo!
               </p>
             </div>
           </div>

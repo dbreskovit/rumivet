@@ -6,6 +6,7 @@ import CertificateSection from "@/components/CertificateSection";
 import RegistrationSection from "@/components/RegistrationSection";
 import AboutRumivetSection from "@/components/AboutRumivetSection";
 import ContactSection from "@/components/ContactSection";
+import SponsorsSection from "@/components/SponsorsSection";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <SpeakersSection />
       <CertificateSection />
       <RegistrationSection />
+      <SponsorsSection/>
       <AboutRumivetSection />
       <ContactSection />
     </div>
@@ -23,3 +25,4 @@ const Index = () => {
 };
 
 export default Index;
+  

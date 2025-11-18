@@ -14,17 +14,15 @@ const SpeakersSection = () => {
   const speakers = [
     {
       name: "Taiani Ourique Gayer",
-      title: "Médica veterinária",
+      title: "Da ordenha ao tanque: os pilares da qualidade do leite e redução da ccs",
       topic: "Qualidade do leite",
       image: speakerTaiani,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
     {
       name: "Bruna Brandão",
-      title: "Médica veterinária",
+      title: "Primeiros passos da bezerra leiteira: cuidados essenciais para um futuro produtivo",
       topic: "Manejo de bezerras",
       image: speakerBruna,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
   ];
 
@@ -78,12 +76,6 @@ const SpeakersSection = () => {
                     <h4 className="font-semibold text-primary mb-2">
                       Tema da palestra: {speakers[selectedSpeaker].topic}
                     </h4>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-primary mb-2">Formação Acadêmica:</h4>
-                    <p className="text-muted-foreground leading-relaxed">
-                      {speakers[selectedSpeaker].description}
-                    </p>
                   </div>
                 </div>
               </>
