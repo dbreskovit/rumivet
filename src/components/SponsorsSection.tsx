@@ -1,30 +1,37 @@
 const SponsorsSection = () => {
-const sponsors = {
-  gold: [
-    { name: "Scire", logo: "/sponsors/SCIRE.jpg" },
-    { name: "Conceito Studio", logo: "/sponsors/CONCEITO.jpg" },
-    { name: "Creluz", logo: "/sponsors/creluz.png" },
-    { name: "JA saude animal", logo: "/sponsors/JA SAÚDE ANIMAL.jpg" },
-    { name: "ADM nutrição animal", logo: "/sponsors/ADM.jpg" },
-    { name: "Suifarma", logo: "/sponsors/SUIFARMA.jpg" },
-    { name: "Forseed", logo: "/sponsors/FORSEED.jpg" },
-    { name: "CRV lago", logo: "/sponsors/CRV LAGOA.jpg" },
-    { name: "Alessi", logo: "/sponsors/ALESSI.png" },
-  ],
-  silver: [
-    { name: "Padaria Doce e vida", logo: "/sponsors/PADARIA DOCE E VIDA.jpg" },
-    { name: "Provet", logo: "/sponsors/PROVET.png" },
-    { name: "Alta genética", logo: "/sponsors/ALTA GENÉTICA.jpg" },
-  ],
-  bronze: [
-    { name: "Mercado Bertoleti", logo: "/sponsors/BERTOLETI.PNG" },
-    { name: "Mercado Barril", logo: "/sponsors/BARRIL.jpg" },
-    { name: "Bom negócio", logo: "/sponsors/BOM NEGÓCIO.jpg" },
-    { name: "Albarello", logo: "/sponsors/ALBARELLO.jpg" },
-    { name: "Coletto máquinas", logo: "/sponsors/LS TRACTOR COLETTO.png" },
-    { name: "Sicoob", logo: "/sponsors/SICOOB.jpg" },
-  ],
-};
+  const sponsors = {
+    gold: [
+      { name: "COTRIJAL", logo: "/sponsors/COTRIJAL.png" },
+      { name: "Scire", logo: "/sponsors/SCIRE.png" },
+      { name: "Conceito Studio", logo: "/sponsors/CONCEITO.png" },
+      { name: "Creluz", logo: "/sponsors/creluz.png" },
+      { name: "JA saude animal", logo: "/sponsors/JA SAÚDE ANIMAL.jpg" },
+      { name: "ADM nutrição animal", logo: "/sponsors/ADM.jpg" },
+      { name: "Suifarma", logo: "/sponsors/SUIFARMA.jpg" },
+      { name: "Forseed", logo: "/sponsors/FORSEED.jpg" },
+      { name: "CRV lago", logo: "/sponsors/CRV LAGOA.jpg" },
+      { name: "Alessi", logo: "/sponsors/ALESSI.png" },
+    ],
+    silver: [
+      { name: "Padaria Doce e vida", logo: "/sponsors/PADARIA DOCE E VIDA.jpg" },
+      { name: "Provet", logo: "/sponsors/PROVET.png" },
+      { name: "Alta genética", logo: "/sponsors/ALTA GENÉTICA.jpg" },
+    ],
+    bronze: [
+      { name: "Mercado Bertoleti", logo: "/sponsors/BERTOLETI.PNG" },
+      { name: "Mercado Barril", logo: "/sponsors/BARRIL.jpg" },
+      { name: "Bom negócio", logo: "/sponsors/BOM NEGÓCIO.jpg" },
+      { name: "Albarello", logo: "/sponsors/ALBARELLO.jpg" },
+      { name: "Coletto máquinas", logo: "/sponsors/LS TRACTOR COLETTO.png" },
+      { name: "Sicoob", logo: "/sponsors/SICOOB.png" },
+      { name: "NATURAL", logo: "/sponsors/NATURAL.png" },
+      {name: "ORGANICA", logo: "/sponsors/ORGANICA.png" },
+    ],
+    apoiadores: [
+      { name: "COTRIJAL", logo: "/sponsors/COTRIJAL.png" },
+      { name: "COOPER", logo: "/sponsors/COOPER.jpg" },
+    ],
+  };
 
   return (
     <section className="py-20 bg-secondary/20">
@@ -58,7 +65,7 @@ const sponsors = {
         {/* Prata */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold text-center text-primary mb-8">Prata</h3>
-          <div className="flex flex-wrap justify-center gap-6">
+          <div className="flex flex-wrap justify-center gap-8">
             {sponsors.silver.map((sponsor, index) => (
               <div
                 key={index}
@@ -75,7 +82,7 @@ const sponsors = {
         </div>
 
         {/* Bronze */}
-        <div>
+        <div className="mb-16">
           <h3 className="text-2xl font-bold text-center text-primary mb-8">Bronze</h3>
           <div className="flex flex-wrap justify-center gap-4">
             {sponsors.bronze.map((sponsor, index) => (
@@ -86,7 +93,26 @@ const sponsors = {
                 <img
                   src={sponsor.logo}
                   alt={sponsor.name}
-                  className="w-[200px] h-[100px] object-contain"
+                  className="w-[250px] h-[100px] object-contain"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Apoiadores */}
+        <div>
+          <h3 className="text-2xl font-bold text-center text-primary mb-8">Apoiadores</h3>
+          <div className="flex flex-wrap justify-center gap-4">
+            {sponsors.apoiadores.map((sponsor, index) => (
+              <div
+                key={index}
+                className="bg-card p-3 rounded-xl shadow-[var(--shadow-medium)] border border-border hover:scale-105 transition-all"
+              >
+                <img
+                  src={sponsor.logo}
+                  alt={sponsor.name}
+                  className="w-[250px] h-[125px] object-contain"
                 />
               </div>
             ))}
