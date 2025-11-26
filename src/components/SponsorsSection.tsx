@@ -16,6 +16,7 @@ const SponsorsSection = () => {
       { name: "Padaria Doce e vida", logo: "/sponsors/PADARIA DOCE E VIDA.jpg" },
       { name: "Provet", logo: "/sponsors/PROVET.png" },
       { name: "Alta genética", logo: "/sponsors/ALTA GENÉTICA.jpg" },
+      { name: "MIG-PLUS", logo: "/sponsors/MIG-PLUS.png" }
     ],
     bronze: [
       { name: "Mercado Bertoleti", logo: "/sponsors/BERTOLETI.PNG" },
