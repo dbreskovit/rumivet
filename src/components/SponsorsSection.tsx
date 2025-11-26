@@ -24,7 +24,7 @@ const SponsorsSection = () => {
       { name: "Bom negócio", logo: "/sponsors/BOM NEGÓCIO.jpg" },
       { name: "Albarello", logo: "/sponsors/ALBARELLO.jpg" },
       { name: "Coletto máquinas", logo: "/sponsors/LS TRACTOR COLETTO.png" },
-      { name: "Sicoob", logo: "/sponsors/SICOOB.png" },
+      { name: "Sicoob", logo: "/sponsors/sicoob.png" },
       { name: "NATURAL", logo: "/sponsors/NATURAL.png" },
       {name: "ORGANICA", logo: "/sponsors/ORGANICA.png" },
     ],
